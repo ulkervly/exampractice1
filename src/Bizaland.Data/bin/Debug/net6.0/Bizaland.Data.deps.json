@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Bizaland.Data/1.0.0": {
+        "dependencies": {
+          "Bizland.Core": "1.0.0"
+        },
+        "runtime": {
+          "Bizaland.Data.dll": {}
+        }
+      },
+      "Bizland.Core/1.0.0": {
+        "runtime": {
+          "Bizland.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bizaland.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Bizland.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

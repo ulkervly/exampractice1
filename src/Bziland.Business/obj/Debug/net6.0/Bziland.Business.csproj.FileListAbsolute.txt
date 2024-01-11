@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bziland.Business.deps.json
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bziland.Business.dll
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bziland.Business.pdb
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bizaland.Data.dll
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bizland.Core.dll
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bizaland.Data.pdb
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\bin\Debug\net6.0\Bizland.Core.pdb
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.AssemblyInfo.cs
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.csproj.CopyComplete
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.dll
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\refint\Bziland.Business.dll
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\Bziland.Business.pdb
+C:\Users\hp\Desktop\Exam\src\Bziland.Business\obj\Debug\net6.0\ref\Bziland.Business.dll

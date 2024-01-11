@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\bin\Debug\net6.0\Bizland.Core.deps.json
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\bin\Debug\net6.0\Bizland.Core.dll
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\bin\Debug\net6.0\Bizland.Core.pdb
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.AssemblyInfo.cs
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.dll
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\refint\Bizland.Core.dll
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\Bizland.Core.pdb
+C:\Users\hp\Desktop\Exam\src\Bizland.Core\obj\Debug\net6.0\ref\Bizland.Core.dll

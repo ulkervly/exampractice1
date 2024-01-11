@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\bin\Debug\net6.0\Bizaland.Data.deps.json
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\bin\Debug\net6.0\Bizaland.Data.dll
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\bin\Debug\net6.0\Bizaland.Data.pdb
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\bin\Debug\net6.0\Bizland.Core.dll
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\bin\Debug\net6.0\Bizland.Core.pdb
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.AssemblyInfo.cs
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.csproj.CopyComplete
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.dll
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\refint\Bizaland.Data.dll
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\Bizaland.Data.pdb
+C:\Users\hp\Desktop\Exam\src\Bizaland.Data\obj\Debug\net6.0\ref\Bizaland.Data.dll

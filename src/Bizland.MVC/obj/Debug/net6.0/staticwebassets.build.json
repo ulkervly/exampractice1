@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "P8asCR0JxfzLhzYq5d7pP5niVCUeH/P1u3JP48NWWXA=",
+  "Source": "Bizland.MVC",
+  "BasePath": "_content/Bizland.MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Bizland.MVC\\wwwroot",
+      "Source": "Bizland.MVC",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\",
+      "BasePath": "_content/Bizland.MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Bizland.MVC.styles.css",
+      "SourceId": "Bizland.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Bizland.MVC",
+      "RelativePath": "Bizland.MVC.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Bizland.MVC.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bizland.MVC.bundle.scp.css",
+      "SourceId": "Bizland.MVC",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Bizland.MVC",
+      "RelativePath": "Bizland.MVC.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Bizland.MVC.bundle.scp.css"
+    }
+  ]
+}
