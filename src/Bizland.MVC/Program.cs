@@ -1,7 +1,16 @@
+using Bizaland.Data.DAL;
+using Bizaland.Data.ServiceRegistration;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddRepositories();
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer("Server = LAPTOP-N2MJ83JU\\SQLEXPRESS;Database=BizlandExam;Trusted_Connection=True");
+});
 
 var app = builder.Build();
 
