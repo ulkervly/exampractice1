@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -18,5 +20,8 @@ namespace Bizland.Core.Entities
         public string Profession { get; set; }
         public string MediaUrls { get; set; }
         public string? ImageUrl { get; set; }
+        [NotMapped]
+        public IFormFile? ImageFile { get; set;
+        }
     }
 }

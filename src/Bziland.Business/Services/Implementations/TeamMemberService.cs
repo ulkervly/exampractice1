@@ -2,7 +2,9 @@
 using Bizland.Core.Repositories;
 using Bziland.Business.Exceptions.Common;
 using Bziland.Business.Exceptions.TeamMemberExceptions;
+using Bziland.Business.Extensions.Helpers;
 using Bziland.Business.Services.Interfaces;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,14 +18,32 @@ namespace Bziland.Business.Services.Implementations
     public class TeamMemberService : ITeamMemberService
     {
         private readonly ITeamMemberRepository _teamMemberRepository;
+        private readonly IWebHostEnvironment _env;
 
-        public TeamMemberService(ITeamMemberRepository teamMemberRepository)
+        public TeamMemberService(ITeamMemberRepository teamMemberRepository,IWebHostEnvironment env)
         {
             _teamMemberRepository = teamMemberRepository;
+            _env = env;
         }
-        public Task CreateAsync(TeamMember teamMember)
+        public async Task CreateAsync(TeamMember teamMember)
         {
-            throw new NotImplementedException();
+            if (teamMember is null) throw new NullReferenceException();
+            if (teamMember.ImageFile is not null)
+            {
+                if (teamMember.ImageFile.ContentType!="image/jpeg" && teamMember.ImageFile.ContentType!="image/png")
+                {
+                    throw new TeamMemberInvalidImageFileException("ImageFile","Content type must be jpg or png !");
+                }
+                if (teamMember.ImageFile.Length>2097167)
+                {
+                    throw new TeamMemberInvalidImageFileException("ImageFile","Size must be lower  2 mb");
+                }
+            }
+            teamMember.ImageUrl = teamMember.ImageFile.SaveFile(_env.WebRootPath,"uploads/teammembers");
+            teamMember.CreatedTime = DateTime.UtcNow;
+            teamMember.UpdatedTime = DateTime.UtcNow;
+            await _teamMemberRepository.CreateAsync(teamMember);
+            await _teamMemberRepository.CommitAsync();
         }
 
         public async Task DeleteAsync(int id)
@@ -56,9 +76,33 @@ namespace Bziland.Business.Services.Implementations
 
         }
 
-        public Task UpdateAsync(TeamMember teamMember)
+        public async Task UpdateAsync(TeamMember teamMember)
         {
-            throw new NotImplementedException();
+            if (teamMember is null) throw new NullReferenceException();
+            var existteammember = await _teamMemberRepository.GetSingleAsync(x=>x.Id==teamMember.Id && !x.Isdeleted);
+            if (existteammember is null)
+            {
+                throw new TeamMemberNotFoundException();
+            }
+            if (teamMember.ImageFile is not null)
+            {
+                if (teamMember.ImageFile.ContentType != "image/jpeg" && teamMember.ImageFile.ContentType != "image/png")
+                {
+                    throw new TeamMemberInvalidImageFileException("ImageFile", "Content type must be jpg or png !");
+                }
+                if (teamMember.ImageFile.Length > 2097167)
+                {
+                    throw new TeamMemberInvalidImageFileException("ImageFile", "Size must be lower  2 mb");
+                }
+                FileManager.DeleteFile(_env.WebRootPath, "uploads/teammembers",existteammember.ImageUrl);
+                existteammember.ImageUrl = teamMember.ImageFile.SaveFile(_env.WebRootPath, "uploads/teammembers");
+
+            }
+            existteammember.FullName = teamMember.FullName;
+            existteammember.Profession=teamMember.Profession;
+            existteammember.MediaUrls = teamMember.MediaUrls;
+            existteammember.UpdatedTime = DateTime.UtcNow;
+            await _teamMemberRepository.CommitAsync();
         }
     }
 }

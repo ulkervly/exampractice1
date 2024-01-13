@@ -1,5 +1,6 @@
 using Bizaland.Data.DAL;
 using Bizaland.Data.ServiceRegistration;
+using Bziland.Business;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRepositories();
+builder.Services.AddServices();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer("Server = LAPTOP-N2MJ83JU\\SQLEXPRESS;Database=BizlandExam;Trusted_Connection=True");
@@ -28,6 +30,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.MapControllerRoute(
+           name: "areas",
+           pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+         );
 
 app.MapControllerRoute(
     name: "default",
