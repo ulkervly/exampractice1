@@ -14,8 +14,8 @@ namespace Bziland.Business.Services.Interfaces
         Task UpdateAsync(TeamMember teamMember);
         Task DeleteAsync(int id);
         Task SoftDelete(int id);
-        Task<TeamMember> GetByExpression(Expression<Func<TeamMember,bool>>expression,params string[] includes);
-        Task<List<TeamMember>> GetAllAsync(Expression<Func<TeamMember, bool>> expression, params string[] includes);
+        Task<TeamMember> GetByExpression(Expression<Func<TeamMember,bool>>?expression=null,params string[]? includes);
+        Task<List<TeamMember>> GetAllAsync(Expression<Func<TeamMember, bool>>? expression=null, params string[]? includes);
 
     }
 }

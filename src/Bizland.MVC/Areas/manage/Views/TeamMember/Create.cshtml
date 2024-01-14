@@ -1,0 +1,35 @@
+﻿@model TeamMember
+@{
+    ViewData["Title"] = "Create";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div >
+        <div class="mb-6">
+            <label asp-for="FullName" class="form-label">FullName</label>
+            <input asp-for="FullName" class="from-control">
+            <span asp-validation-for="FullName" class="text-danger"></span>
+
+        </div>
+        <div class="mb-6">
+            <label asp-for="Profession" class="form-label">Profession</label>
+            <input asp-for="Profession" class="from-control">
+            <span asp-validation-for="Profession" class="text-danger"></span>
+
+        </div>
+        <div class="mb-3">
+            <label asp-for="MediaUrls" class="form-label">Media</label>
+            <input asp-for="MediaUrls" class="from-control">
+            <span asp-validation-for="MediaUrls" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImageFile" class="form-label">Image</label>
+            <input asp-for="ImageFile" class="from-control">
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    </div>
+</form>
+
