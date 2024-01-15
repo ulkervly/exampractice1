@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FeEzE9dHrKfEvpEzk7WmfR2vkgyTJsBGR/WP7ViMb1w=",
+  "Hash": "tTbBCWCvtEKQcm2WVb+8M8G7gQIo8Ca9aK02HID4IZ8=",
   "Source": "Bizland.MVC",
   "BasePath": "_content/Bizland.MVC",
   "Mode": "Default",
@@ -33556,6 +33556,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\manage\\vendor\\jquery-easing\\jquery.easing.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\uploads\\teammembers\\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png",
+      "SourceId": "Bizland.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\",
+      "BasePath": "_content/Bizland.MVC",
+      "RelativePath": "uploads/teammembers/10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\teammembers\\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\uploads\\teammembers\\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png",
+      "SourceId": "Bizland.MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\",
+      "BasePath": "_content/Bizland.MVC",
+      "RelativePath": "uploads/teammembers/7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\teammembers\\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png"
     }
   ]
 }

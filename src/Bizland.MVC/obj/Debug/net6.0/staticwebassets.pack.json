@@ -7889,6 +7889,14 @@
       "PackagePath": "staticwebassets\\manage\\vendor\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\uploads\\teammembers\\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png",
+      "PackagePath": "staticwebassets\\uploads\\teammembers\\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\Exam\\src\\Bizland.MVC\\wwwroot\\uploads\\teammembers\\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png",
+      "PackagePath": "staticwebassets\\uploads\\teammembers\\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Bizland.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

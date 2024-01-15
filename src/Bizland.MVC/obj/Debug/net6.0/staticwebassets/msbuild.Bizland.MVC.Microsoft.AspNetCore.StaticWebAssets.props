@@ -31552,5 +31552,37 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\manage\vendor\jquery\jquery.slim.min.map))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teammembers\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Bizland.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Bizland.MVC</BasePath>
+      <RelativePath>uploads/teammembers/10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teammembers\10bf0314-1b1c-497d-84d0-fda1cac44e3aEkran görüntüsü (5).png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teammembers\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Bizland.MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Bizland.MVC</BasePath>
+      <RelativePath>uploads/teammembers/7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\teammembers\7dc493ef-c192-4b07-82c3-4bb76766ca3fEkran görüntüsü (2).png))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>
